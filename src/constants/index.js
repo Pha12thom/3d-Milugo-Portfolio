@@ -52,7 +52,7 @@ const services = [{
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Android Developer",
         icon: creator,
     },
 ];
@@ -112,11 +112,11 @@ const technologies = [{
 ];
 
 const experiences = [{
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Full Stack Developer",
+        company_name: "ALX Software engineering",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "March 2023 - April 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -124,12 +124,29 @@ const experiences = [{
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+    {
+        title: "Microsoft Learn Student Ambassador",
+        company_name: "Microsoft",
+        icon: starbucks,
+        iconBg: "#383E56",
+        date: "March 2023 - present",
+        points: [
+            "Holding workshops and webinars on various topics related to technology.",
+
+            "Mentoring students and helping them build their technical skills.",
+            "Collaborating with other ambassadors to create engaging content for the community.",
+            "Representing Microsoft at various events and conferences.",
+
+        ],
+    },
+
+
     {
         title: "React Native Developer",
-        company_name: "Tesla",
+        company_name: "Mayo Clinic",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2025 - present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -138,107 +155,108 @@ const experiences = [{
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Backend Developer",
+        company_name: "Buntu Labs Technologies",
         icon: shopify,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Nov 2024 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Node.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Full stack Developer",
+        title: "Moringa School Campus Ambassador",
         company_name: "Meta",
         icon: meta,
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Organizing and hosting events to promote Moringa School and its programs.",
+            "Mentoring students and helping them navigate their learning journey.",
+            "Collaborating with the admissions team to recruit new students.",
+            "Representing Moringa School at various events and conferences.",
+
         ],
     },
 ];
 
 const testimonials = [{
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Milugo Geofrey proved me wrong.",
         name: "Sara Lee",
         designation: "CFO",
-        company: "Acme Co",
+        company: "Lecture Maseno University",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
+        testimonial: "I've never met a web developer who truly cares about their clients' success like Geofrey does.",
+        name: "Hamilton Conford",
         designation: "COO",
-        company: "DEF Corp",
+        company: "Buntu Labs",
         image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
+        testimonial: "After Geofrey optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        name: "Buntu Labs",
         designation: "CTO",
-        company: "456 Enterprises",
+        company: "",
         image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
 
 const projects = [{
-        name: "Car Rent",
-        description: "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        name: "Cemishop commercial store",
+        description: "Web-based platform that allows users to search, book, and manage products , providing a convenient and efficient solution for Market needs.",
         tags: [{
-                name: "react",
+                name: "Django",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "SQL",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://cemishop.pythonanywhere.com/",
     },
     {
-        name: "Job IT",
-        description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        name: "Bus Booking system",
+        description: "Django Bus Booking system.",
+        tags: [{
+                name: "Django",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "HTML templates",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Postgresql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "https://github.com/djangoBusBooking",
+    },
+    {
+        name: "To Do App",
+        description: "Simple To Do App built with React.js and Tailwind CSS.",
         tags: [{
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Tailwind CSS",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [{
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
+                name: "JavaScript",
                 color: "pink-text-gradient",
             },
         ],
