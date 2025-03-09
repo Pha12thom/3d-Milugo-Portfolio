@@ -23,6 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    buntu,
+    microsoft,
+    moringa,
+    alx,
+    extern,
 } from "../assets";
 
 export const navLinks = [{
@@ -114,7 +119,7 @@ const technologies = [{
 const experiences = [{
         title: "Full Stack Developer",
         company_name: "ALX Software engineering",
-        icon: starbucks,
+        icon: alx,
         iconBg: "#383E56",
         date: "March 2023 - April 2024",
         points: [
@@ -127,7 +132,7 @@ const experiences = [{
     {
         title: "Microsoft Learn Student Ambassador",
         company_name: "Microsoft",
-        icon: starbucks,
+        icon: microsoft,
         iconBg: "#383E56",
         date: "March 2023 - present",
         points: [
@@ -144,7 +149,7 @@ const experiences = [{
     {
         title: "React Native Developer",
         company_name: "Mayo Clinic",
-        icon: tesla,
+        icon: starbucks,
         iconBg: "#E6DEDD",
         date: "Jan 2025 - present",
         points: [
@@ -157,7 +162,7 @@ const experiences = [{
     {
         title: "Backend Developer",
         company_name: "Buntu Labs Technologies",
-        icon: shopify,
+        icon: buntu,
         iconBg: "#383E56",
         date: "Nov 2024 - present",
         points: [
@@ -170,7 +175,7 @@ const experiences = [{
     {
         title: "Moringa School Campus Ambassador",
         company_name: "Meta",
-        icon: meta,
+        icon: moringa,
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",
         points: [
@@ -181,6 +186,19 @@ const experiences = [{
 
         ],
     },
+    {
+        title: "Senior Student Ambassador",
+        company_name: "Extern",
+        icon: extern,
+        iconBg: "#383E56",
+        date: "Jan 2022 - Present",
+        points: [
+            "Organizing and hosting events to promote Extern and its programs.",
+            "Mentoring students and helping them navigate their learning journey.",
+            "Collaborating with the admissions team to recruit new students.",
+            "Representing Extern at various events and conferences.",
+        ],
+    }
 ];
 
 const testimonials = [{
