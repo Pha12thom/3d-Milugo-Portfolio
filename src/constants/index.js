@@ -260,7 +260,7 @@ const projects = [{
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/djangoBusBooking",
+        source_code_link: "https://github.com/Pha12thom/DjangoBusmanagement_system",
     },
     {
         name: "To Do App",
@@ -279,7 +279,7 @@ const projects = [{
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/pha12thom/",
     },
 ];
 
